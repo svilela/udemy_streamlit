@@ -78,11 +78,15 @@ To do this:
 
 2) Create the virtual environment : 
 
-`python3 -m venv .env`
+`python3 -m venv .venv`
 
 3) Activate it : 
 
-`source .env/bin/activate`
+`source .venv/bin/activate`
+
+Or
+
+`source .venv/Scripts/activate`
 
 4) Install dependencies : 
 
