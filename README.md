@@ -75,19 +75,16 @@ To do this:
 
 `cd udemy_streamlit`
 
-2) Install virtualenv : 
 
-`pip install virtualenv`
+2) Create the virtual environment : 
 
-3) Create the virtual environment : 
+`python3 -m venv .env`
 
-`virtualenv env`
+3) Activate it : 
 
-4) Activate it : 
+`source .env/bin/activate`
 
-`source env/bin/activate`
-
-5) Install dependencies : 
+4) Install dependencies : 
 
 `pip install -r requirements.txt`
 
